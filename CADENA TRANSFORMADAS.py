@@ -9,11 +9,10 @@ nombre_z= ""
 
 for a in nombre_completo:
     if a in vocales:
-        nombre_z += "z"
+        nombre_z += ""
     else: 
-        nombre_z += a
+        nombre_z += a        
 print(f"vocales remplezadas por 'z': {nombre_z}")
-
 
 
 nombre_alreves = nombre_completo [::-1]

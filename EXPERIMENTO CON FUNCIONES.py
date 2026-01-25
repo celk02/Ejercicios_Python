@@ -17,9 +17,9 @@ print("multiplicar es: ", resultado)
 
 # imprimir el numero recibido, y que lo divida entre dos y se llame recursivamente mientras que el numero sea mayor que 0
 def half(numero):
-    print(int(numero))
-    if numero >=0 :
-        half(numero/2)
+    print((numero))
+    if numero > 0 :
+        half(numero//2)
 half(100)
 
     
